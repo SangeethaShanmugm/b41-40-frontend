@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { Form, FormGroup, Input, Label, Button, Col } from "reactstrap";
 import { API } from "../api";
 
-function EditProduct() {
+export function EditProduct() {
   const { id } = useParams();
 
   const [product, setProduct] = useState(null);
@@ -153,5 +153,3 @@ function EditProductForm({ product }) {
     </div>
   );
 }
-
-export default EditProduct;

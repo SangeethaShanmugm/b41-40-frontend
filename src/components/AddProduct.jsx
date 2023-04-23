@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { Form, FormGroup, Input, Label, Button, Col } from "reactstrap";
 import { API } from "../api";
 import { useNavigate } from "react-router-dom";
-function AddProduct({ productList, setProductList }) {
+
+export function AddProduct({ productList, setProductList }) {
   const [name, setName] = useState("");
   const [productImage, setProductImage] = useState("");
   const [description, setDescription] = useState("");
@@ -133,5 +134,3 @@ function AddProduct({ productList, setProductList }) {
     </div>
   );
 }
-
-export default AddProduct;

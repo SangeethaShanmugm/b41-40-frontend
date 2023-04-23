@@ -4,8 +4,8 @@ import React, { useState } from "react";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ProductList from "./components/ProductList";
-import AddProduct from "./components/AddProduct";
-import EditProduct from "./components/EditProduct";
+import { AddProduct } from "./components/AddProduct";
+import { EditProduct } from "./components/EditProduct";
 function App() {
   const [productList, setProductList] = useState([]);
 
