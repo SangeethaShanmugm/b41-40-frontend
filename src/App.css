@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+/* .container-style {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+} */
+
+.card-style {
+  float: left;
+
+  width: 200px;
+  max-height: 500px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.pic {
+  width: 100%;
+}
+
+.card-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
